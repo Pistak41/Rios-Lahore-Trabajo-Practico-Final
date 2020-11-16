@@ -1,24 +1,9 @@
-#define M1 5
-#define M2 3
-#define M3 11
-#define M4 10
 #define PIR A0
 
-#define M1E1 6
-#define M1E2 7
-
-#define M2E1 4
-#define M2E2 2
-
-#define M3E1 13
-#define M3E2 12
-
-#define M4E1 9
-#define M4E2 8
-
 //ME = MotoresEntradas
-int ME[] = {M1E1 , M1E2 , M2E1 , M2E2 , M3E1 , M3E2 , M4E1 , M4E2};
-int Motores[] = {M1 , M2 , M3 , M4};
+int ME[] = {6 , 7 , 4 , 2 , 13 , 12 , 9 , 8};
+int Motores[] = {5 , 3 , 11 , 10};
+
 
 int W[] = {1 , 0 , 1 , 0 , 1 , 0 , 1 , 0};
 int A[] = {0 , 0 , 1 , 0 , 0 , 0 , 1 , 0};
